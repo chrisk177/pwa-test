@@ -1,2 +1,2 @@
 # pwa-test
-For training the soybean
+Simple web app using nodejs, mysql, express, and xaamp
