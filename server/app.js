@@ -19,9 +19,9 @@ app.post('/insert', (request, response) => {
 
 //read
 app.get('/getAll', (request, response) => {
-    response.json({
-        success: true
-    });
+    // response.json({
+    //     success: true
+    // });
 });
 
 //update
