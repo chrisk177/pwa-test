@@ -1,0 +1,92 @@
+.navbar-light .navbar-brand { /*social good hackathon*/
+  color: #34495e;
+  font-family:"Reenie Beanie", cursive;
+  font-size:45px;
+
+}
+
+.bg-light { /*the nav bar*/
+  background-color: white !important;
+}
+
+#navbarNav{ /*the nav bar headers*/
+  font-family:"Reenie Beanie", cursive;
+  color:#34495e;
+  font-size: 35px;
+
+}
+
+#navbarNav a:hover{ /*when nav bar is hovered*/
+  color:#d6575b;
+}
+
+#navbarNav a:ml-auto{ /*when nav bar is clicked*/
+  color:#d6575b;
+}
+
+.main h1{ /*main page container text*/
+  font-size: 30px;
+  color: black;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-text h2{ /*long paragraph text and testimonials header*/
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.main{ /*the main container details*/
+  /*margin-top:93px;*/
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.10) 100%, rgb(243, 243, 243) 80%), url(../images/img1.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: white;
+  font-family: "Nothing You Could Do", cursive;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+
+.gridpics, .head1{ /*grid pictures and row after*/
+  text-align: center;
+  font-family: "Reenie Beanie", cursive;
+  width: 383;
+  height: 383;
+  margin:0px;
+  padding:0px;
+  max-width: 1251px;
+  text-transform: uppercase;
+  font-size: 25px;
+  align-items: center;
+}
+
+.gridpics p{ /*padding for the second row with words*/
+  paddint-bottom: 15px;
+  align-items: center;
+}
+
+#mem1, #mem2, #mem3 { /*specifics for the images*/
+  size:150%;
+  width:383;
+  height:383px;
+  align-items: center;
+
+
+}
+
+.carousel-item {
+  height: 75vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-lg{
+  font-size: 36px;
+}
